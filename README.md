@@ -12,7 +12,7 @@ docker pull huiying1/info550
 To build the image and report, run
 
 ``` bash
-docker run -v /your_local_path/project_output:/project/output -it huiying1/info550
+docker run -v /your_local_path/output:/one/output -it huiying1/info550
 ```
 Replace "/your_local_path" with desired directory on your laptop. If you want to retrieve the html report at your local diectory, you can create a folder in your local directory. In the example here, I created a folder called output under Desktop. 
 ``` bash
